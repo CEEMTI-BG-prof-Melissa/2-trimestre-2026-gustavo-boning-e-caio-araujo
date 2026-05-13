@@ -1,43 +1,37 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Formulário HTML</title>
-</head>
+ <title>Formulário HTML</title>
+ <meta charset="UTF-8">
+</head> <!--certo-->
 
 <body> 
-  <h1>Cadastro de Usuário</h1>
+  <h1>Cadastro de Usuário</h1> <!--certo-->
   <form action="cadastro.php" method="POST">
     <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome">
+    <input type="text" id="nome" name="nome"> <!--certo-->
     <br>
     <label for="email">E-mail:</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email"> <!--certo-->
     <br>
     <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha">
+    <input type="password" id="senha" name="senha"> <!--certo-->
     <br>
     <label for="idade">Idade:</label>
     <input type="number" id="idade" name="idade">
     <br>
     <label for="nascimento">Data de nascimento:</label>
-    <input type="date" id="nascimento" name="nascimento">
+    <input type="date" id="nascimento" name="nascimento"> <!--certo-->
     <br>
     <p>Turno:</p>
-    <input type="radio" name="turno" id="manha" value="manha">
-    <label for="manha">Manhã</label>
-    <input type="radio" name="turno" id="tarde" value="tarde">
-    <label for="tarde">Tarde</label>
-    <input type="radio" name="turno" id="noite" value="noite">
-    <label for="noite">Noite</label>
+    <input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label>
+    <input type="radio" name="turno" id="tarde"> <label for="tarde">tarde</label>
+    <input type="radio" name="turno" id="noite"> <label for="noite">noite</label>
     <br>
     <p>Áreas de interesse:</p>
-    <input type="checkbox" name="area[]" id="programacao" value="programacao">
-    <label for="programacao">Programação</label>
-    <input type="checkbox" name="area[]" id="design" value="design">
-    <label for="design">Design</label>
-    <input type="checkbox" name="area[]" id="redes" value="redes">
-    <label for="redes">Redes</label>
+    <input type="checkbox" name="area[]" id="programacao"> <label for="programacao">programacao</label>
+    <input type="checkbox" name="area[]" id="design"> <label for="desingn">Desingn</label>
+    <input type="checkbox" name="area[]" id="redes"> <label for="redes">redes</label>
     <br><br>
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
